@@ -1,3 +1,5 @@
+import CalculadoraApp from "./components/CalculadoraApp"
+
 function App() {
 
   return (
@@ -5,6 +7,7 @@ function App() {
      <header>
       <h1>Watts Calculator</h1>
      </header>
+     <CalculadoraApp />
     </>
   )
 }
