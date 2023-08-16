@@ -1,15 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Formulario from './Formulario'
 
 const CalculadoraApp = () => {
   return (
     <div>
-      <nav>
-        <ul>
-            <li><a>Cartuchos</a></li>
-            <li><a>Sunchos</a></li>
-            <li><a>Planas</a></li>
-        </ul>
-      </nav>
+      <Navbar />
+      <Formulario />
     </div>
   )
 }
